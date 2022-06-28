@@ -1,0 +1,15 @@
+.victory, .loss {
+    padding: 10px 20px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: orange;
+    font-size: 25px;
+}
+.victory {
+    margin-right: 5px;
+}
+
+.loss {
+    margin-left: 5px;
+}

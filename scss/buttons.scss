@@ -1,0 +1,22 @@
+.step {
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    transition: all 1s ease-out;
+}
+
+.step:hover {
+    transform: scale(1.2);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    cursor: pointer;
+}
+
+.step:not(:last-child) {
+    margin-right: 50px;
+}
+
+.main {
+    position: relative;
+}
+

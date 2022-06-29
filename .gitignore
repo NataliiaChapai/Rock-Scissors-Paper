@@ -1,7 +1,4 @@
-/node_modules
 .cache
-/dist
 .DS_Store
 .vscode
-.gitignore
 /DS_Store

@@ -1,0 +1,14 @@
+*{margin:0;padding:0;box-sizing:border-box;list-style:none;text-decoration:none}body{background-color:purple;color:orange;text-align:center;padding:30px}.container{display:grid;grid-template-columns:repeat(2, 200px);justify-content:space-between}
+
+.game{font-weight:600;font-size:40px;padding:20px;border:1px solid orange;border-radius:10px;background-color:rgba(255,255,255,0.3)}.rules{display:grid;grid-template-columns:repeat(4, 1fr);border:1px solid orange;border-radius:10px;padding:10px;background-color:rgba(255,255,255,0.3)}.rule{border:1px solid orange;border-radius:10px;background-color:purple;transition:all 1s ease-out;padding:5px;font-size:20px}.rule:hover{transform:scale(1.2);box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);color:#fff}.title,.start{padding:10px;font-size:30px}
+
+.step{border-radius:50%;width:230px;height:230px;object-fit:cover;transition:all 1s ease-out}.step:hover{transform:scale(1.2);box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);cursor:pointer}.step:not(:last-child){margin-right:50px}.main{position:relative}
+
+.victory,.loss{padding:10px 20px;border:1px solid orange;border-radius:10px;background-color:rgba(255,255,255,0.3);color:orange;font-size:25px}.victory{margin-right:5px}.loss{margin-left:5px}
+
+.results{border:1px solid orange;border-radius:10px;background-color:purple;transition:all 1s ease-out;padding:10px;font-size:25px;background-color:rgba(255,255,255,0.3)}.results:hover{box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);color:#fff}.emogi{border-radius:50%;height:230px;width:230px;margin-bottom:10px}
+
+.reset{display:flex}.reset__btn,.next__btn{padding:10px 20px;background-color:rgba(255,255,255,0.3);border-radius:10px 20px;border:none;color:orange;font-size:20px;cursor:pointer;transition:all 1s ease-out;margin-right:10px}.reset__btn:hover,.next__btn:hover{transform:scale(1.2);box-shadow:0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);color:#fff}
+
+.move{padding-bottom:20px;align-items:center}
+
